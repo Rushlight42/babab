@@ -38,7 +38,7 @@
         })
     }() )
 
-    let a1 = ["../prak4/background.jpg","../prak4/background2.jpg","../prak4/background3.jpg","../prak4/background4.jpg"];
+    let a1 = ["background.jpg","background2.jpg","background3.jpg","background4.jpg"];
     let ala = 0;
     function but2(){ 
      ala +=1 
@@ -51,5 +51,5 @@
     function but1(){
       const gif= document.getElementById("myGif").style.display = 'block';
       gif.src = '';
-      gif.src = '../prak4/iskra.gif'
+      gif.src = 'iskra.gif'
     }
